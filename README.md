@@ -1,3 +1,2 @@
-KALKULATOR SEDERHANA MENGGUNAKAN JAVASCRIPT
-
-Semoga bermanfaat
+KALKULATOR SEDERHANA 
+kalkulator ini dibuat dengan javascript.
