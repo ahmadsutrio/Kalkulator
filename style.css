@@ -9,13 +9,21 @@
 body{
     background-color:rebeccapurple;
 }
-
+.title{
+    text-align: center;
+    font-size:30px;
+    font-weight:800;
+    margin-top: 30px;
+    color: rgb(234, 223, 223);
+    text-transform: uppercase;
+}
 .container{
-    margin:20% auto;
+    margin:30px auto;
     width: 300px;
     padding: 10px;
     background-color:#e6e9ef;
     border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(47, 45, 45);
 }
 .form{
     width: 100%;
@@ -48,8 +56,10 @@ body{
 .button-right{
     width: 30%;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    background-color: yellow;
+    border-radius: 10px;
+    background-color: rgb(255, 207, 118);
 }
 .item{
     display: flex;
