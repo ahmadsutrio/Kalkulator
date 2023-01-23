@@ -1,3 +1,3 @@
 KALKULATOR SEDERHANA MENGGUNAKAN JAVASCRIPT
 
-Semoga bisa membantu
+Semoga bermanfaat
