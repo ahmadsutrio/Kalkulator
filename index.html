@@ -12,33 +12,41 @@
 <body>
     <div class="container">
         <form action="" class="form">
-            <input type="text" class="hasil" name="" placeholder="0" id="">
+            <input type="text" class="hasil" name="" placeholder="0" id="hasil">
         </form>
         <div class="flex">
             <div class="button-left">
-                <button class="item">AC</button>
-                <button class="item">-</button>
-                <button class="item">X</button>
-                <script>
-                    for (i = 9; i >= 1; i--) {
-                        document.write(
-                            '<button class="item">' + i + '</button>'
-                        );
-                    }
-                </script>
-                <button class="item"> </button>
-                <button class="item">0</button>
-                <button class="item">.</button>
+                <button class="item" class="item" onclick="nilai('clearAll')";>AC</button>
+                <button class="item" class="item" onclick="nilai('clear')";>C</button>
+                <button class="item" class="item" onclick="nilai('%')";>%</button>
+
+                <button class="item" class="item" onclick="nilai('7')";>7</button>
+                <button class="item" class="item" onclick="nilai('8')";>8</button>
+                <button class="item" class="item" onclick="nilai('9')";>9</button>
+
+                <button class="item" class="item" onclick="nilai('4')";>4</button>
+                <button class="item" class="item" onclick="nilai('5')";>5</button>
+                <button class="item" class="item" onclick="nilai('6')";>6</button>
+
+                <button class="item" class="item" onclick="nilai('1')";>1</button>
+                <button class="item" class="item" onclick="nilai('2')";>2</button>
+                <button class="item" class="item" onclick="nilai('3')";>3</button>
+
+                <button class="item" class="item" onclick="nilai('')";> </button>
+                <button class="item" class="item" onclick="nilai('0')";>0</button>
+                <button class="item" class="item" onclick="nilai('.')";>.</button>
             </div>
+
             <div class="button-right">
-                <button class="item">X</button>
-                <button class="item">X</button>
-                <button class="item">X</button>
-                <button class="item">X</button>
-                <button class="item">X</button>
+                <button class="item" class="item" onclick="nilai('/')";>:</button>
+                <button class="item" class="item" onclick="nilai('*')";>x</button>
+                <button class="item" class="item" onclick="nilai('+')";>+</button>
+                <button class="item" class="item" onclick="nilai('-')";>-</button>
+                <button class="item" class="item" onclick="nilai('=')";>=</button>
             </div>
         </div>
     </div>
 </body>
 
+<script src="script.js"></script>
 </html>
